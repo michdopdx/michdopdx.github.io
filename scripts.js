@@ -1,1 +1,1 @@
-let;
+let cognexWork = document.querySelector("cognexWork");
