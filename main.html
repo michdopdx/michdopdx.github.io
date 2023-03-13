@@ -14,10 +14,10 @@
   <body>
     <nav class="navBar">
       <ul class="navItems">
-        <li class="navAbout"><a href="#">About Me</a></li>
-        <li clas="navWork"><a href="#">Previous Work</a></li>
-        <li class="navProjects"><a href="#">Projects</a></li>
-        <li class="navContact"><a href="#">Contact</a></li>
+        <li class="navAbout"><a href="#AboutMe">About Me</a></li>
+        <li clas="navWork"><a href="#PreWork">Previous Work</a></li>
+        <li class="navProjects"><a href="#Projects">Projects</a></li>
+        <li class="navContact"><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
     <main class="bg-light border rounded w-75 mx-auto my-7">
@@ -25,7 +25,7 @@
         <h1 class="text-center bg-dark text-light p-3 mt-5">
           About Michael Do
         </h1>
-        <section>
+        <section id="AboutMe">
           <div class="d-flex justify-content-evenly p-4">
             <div class="bg-Secondary">
               <h2>Biographgy</h2>
@@ -45,7 +45,7 @@
           </div>
         </section>
 
-        <section>
+        <section id="PreWork">
           <h1 class="text-center bg-dark text-light p-0 m-0">Previous Work</h1>
           <div class="d-flex flex-column p-4">
             <div class="d-flex">
@@ -87,7 +87,7 @@
           </div>
         </section>
 
-        <section>
+        <section id="Projects">
           <h1 class="text-center bg-dark text-light p-0 m-0">Projects</h1>
           <div class="d-flex p-4">
             <div class="card">
@@ -107,6 +107,7 @@
             </div>
             <div class="card">
               <img
+                class="image-fluid"
                 src="../FinalProjectImages/aiBrain.jpeg"
                 alt="Picture from: https://pixabay.com/illustrations/artificial-intelligence-brain-think-3382507/" />
               <div class="card-body">
@@ -124,12 +125,12 @@
           </div>
         </section>
 
-        <section>
+        <section id="Contact" class="bg-primary pb-4">
           <h1 class="text-center bg-dark text-light p-0 m-0">
             Want to reach out or have any questions?
           </h1>
           <div class="bg-dark border rounded w-50 mx-auto my-7 mt-4">
-            <form class="bg-light border rounded mx-auto p-2">
+            <form id="form" class="bg-light border rounded mx-auto p-2">
               <h2 class="text-center">Contact Me Here!</h2>
 
               <div class="sm-3 row mt-3">
@@ -148,9 +149,15 @@
 
               <div class="mt-4">
                 <label for="Email" class="fs-5">Leave a comment here:</label>
-                <textarea class="form-control" id="messageArea" rows="4">
-                Enter Message Here:</textarea
-                >
+                <textarea
+                  class="form-control spellcheck"
+                  id="messageArea"
+                  rows="4"
+                  value="">
+                </textarea>
+                <div>
+                  <p>Word Count:<span id="count"> 0</span></p>
+                </div>
               </div>
               <div class="container mt-3">
                 <div class="col-md-12 text-center">
