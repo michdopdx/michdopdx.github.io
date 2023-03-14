@@ -12,12 +12,12 @@
     <script defer src="scripts.js"></script>
   </head>
   <body>
-    <nav class="navBar">
-      <ul class="navItems">
-        <li class="navAbout"><a href="#AboutMe">About Me</a></li>
-        <li clas="navWork"><a href="#PreWork">Previous Work</a></li>
-        <li class="navProjects"><a href="#Projects">Projects</a></li>
-        <li class="navContact"><a href="#Contact">Contact</a></li>
+    <nav>
+      <ul>
+        <li><a href="#AboutMe">About Me</a></li>
+        <li><a href="#PreWork">Previous Work</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
     <main class="bg-light border rounded w-75 mx-auto my-7">
@@ -26,21 +26,30 @@
           About Michael Do
         </h1>
         <section id="AboutMe">
-          <div class="d-flex justify-content-evenly p-4">
-            <div class="bg-Secondary">
-              <h2>Biographgy</h2>
-              <p class="text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                cursus consectetur lorem sed congue. Nullam eu varius nisi,
-                luctus dictum nunc. Ut a porttitor ipsum. Nulla accumsan, risus
-                mollis
+          <div class="d-md-flex p-4">
+            <div class="pe-3">
+              <h2>A little bit about me</h2>
+              <p class="text-right">
+                I am a fourth-year student at Portland State University studying
+                computer science. In my first year at PSU, I worked as a lab
+                attendant for OIT. My main job was to assist users with
+                technical difficulties and maintain a clean and proper lab. The
+                skills I developed and improved while working as a member of OIT
+                are communication skills, people skills, critical thinking, and
+                problem-solving. I worked with OIT till my third year at PSU,
+                where I got accepted into MECOP and got my first spring-summer
+                internship at Cognex. At Cognex, I worked as a Software Engineer
+                Intern for their application software team. During my
+                internship, I worked on a couple of projects. The first project
+                I worked on was building an image filter for their cameras, and
+                the main project I worked on was automating firmware loading for
+                their newest cameras. Lastly, I worked on minor bugs. Because
+                Mecop offers two six-month internships, I will be interning at
+                Thermo Fisher Scientific in Eugene Oregon spring-summer of 2023.
               </p>
             </div>
-            <div class>
-              <img
-                class="w-100"
-                src="../FinalProjectImages/MichaelDo.jpg"
-                alt="This is me" />
+            <div>
+              <img src="../FinalProjectImages/MichaelDo.jpg" alt="This is me" />
             </div>
           </div>
         </section>
@@ -48,40 +57,48 @@
         <section id="PreWork">
           <h1 class="text-center bg-dark text-light p-0 m-0">Previous Work</h1>
           <div class="d-flex flex-column p-4">
-            <div class="d-flex">
+            <div class="d-md-flex">
               <div>
                 <img
                   src="../FinalProjectImages/cognexlogo.png"
                   alt="First Mecop InternShip" />
               </div>
-              <div>
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam cursus consectetur lorem sed congue. Nullam eu varius
-                  nisi, luctus dictum nunc. Ut a porttitor ipsum. Nulla
-                  accumsan, risus mollis consequat laoreet, nibh lorem commodo
-                  arcu, non fringilla ante lectus id tellus. Morbi interdum est
-                  eu orci pretium, nec
+              <div class="ps-3">
+                <h2>First Mecop Internship</h2>
+                <p class="text-right">
+                  For my first internship with Mecop, I interned at Cognex. At
+                  Cognex, I worked as a Software Engineer Intern for the
+                  software applications team called team Ocelot. There were a
+                  handful of people on this team, including me, two other
+                  interns and three mentors, and a couple of others. The main
+                  project the other interns and I worked on was automating
+                  device reconfiguration. As part of this project, I was tasked
+                  with automating firmware loading/updating for their newest
+                  vision systems. During my internship, I learned many new
+                  things about C#, web APIs, and automation.
                 </p>
               </div>
             </div>
-            <div class="d-flex mt-4">
-              <div>
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam cursus consectetur lorem sed congue. Nullam eu varius
-                  nisi, luctus dictum nunc. Ut a porttitor ipsum. Nulla
-                  accumsan, risus mollis consequat laoreet, nibh lorem commodo
-                  arcu, non fringilla ante lectus id tellus. Morbi interdum est
-                  eu orci pretium, nec efficitur quam semper. Donec feugiat nec
-                  nisl quis posuere. Cras
+            <div class="d-md-flex mt-4">
+              <div class="pe-3">
+                <h2>PSU OIT</h2>
+                <p class="text-right">
+                  During my first and second years at PSU, I worked as an OIT
+                  lab attendant and a remote class support line. While working
+                  as an OIT lab attendant before Covid, I would help students
+                  with technical problems like issues with PSU computers,
+                  internet/wifi, loading software for users, and many others. I
+                  enjoyed working there very much. My coworkers and managers are
+                  very understanding because they are students as well. I found
+                  pleasure in helpings others and seeing the relief that they
+                  get after their issue has been solved. During Covid, I worked
+                  a remote class support line where I did very similar tasks as
+                  a lab attendent, but instead of face-to-face interaction it
+                  was through phone calls.
                 </p>
               </div>
               <div>
-                <img
-                  class="w-100"
-                  src="../FinalProjectImages/oit.png"
-                  alt="First Mecop InternShip" />
+                <img src="../FinalProjectImages/oit.png" alt="PSU OIT" />
               </div>
             </div>
           </div>
@@ -92,34 +109,41 @@
           <div class="d-flex p-4">
             <div class="card">
               <img
+                class="w-100"
                 src="../FinalProjectImages/airlineproject.jpg"
-                alt="picture from: https://www.pexels.com/photo/jet-cloud-landing-aircraft-46148/" />
+                alt="used picture from: https://www.pexels.com/photo/jet-cloud-landing-aircraft-46148/" />
               <div class="card-body">
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam cursus consectetur lorem sed congue. Nullam eu varius
-                  nisi, luctus dictum nunc. Ut a porttitor ipsum. Nulla
-                  accumsan, risus mollis consequat laoreet, nibh lorem commodo
-                  arcu, non fringilla ante lectus id tellus. Morbi interdum est
-                  eu orci pretium, nec
+                <h3 class="card-title">Airline Application Java</h3>
+                <p class="text-right">
+                  For this project, I created an airline application that allows
+                  users to store airlines and flights on the web. The airlines
+                  and flights are formatted with XML making it easier to read.
+                  Through command line arguments the users will be able to add
+                  or search for airlines and flights.
                 </p>
+                <a href="https://github.com/michdopdx/Java" class="card-link"
+                  >Vist My Git Repo</a
+                >
               </div>
             </div>
             <div class="card">
               <img
-                class="image-fluid"
+                class="image-fluid w-100"
                 src="../FinalProjectImages/aiBrain.jpeg"
-                alt="Picture from: https://pixabay.com/illustrations/artificial-intelligence-brain-think-3382507/" />
+                alt="Used picture from: https://pixabay.com/illustrations/artificial-intelligence-brain-think-3382507/" />
               <div class="card-body">
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam cursus consectetur lorem sed congue. Nullam eu varius
-                  nisi, luctus dictum nunc. Ut a porttitor ipsum. Nulla
-                  accumsan, risus mollis consequat laoreet, nibh lorem commodo
-                  arcu, non fringilla ante lectus id tellus. Morbi interdum est
-                  eu orci pretium, nec efficitur quam semper. Donec feugiat nec
-                  nisl quis posuere. Cras
+                <h3 class="card-title">Sorting Algorithm</h3>
+                <p class="text-right">
+                  This repository is an example of an exercise that I had to
+                  create in my Algortimes class. As a project for this class, we
+                  needed to write sorting algorithms and this is an example of
+                  what I wrote.
                 </p>
+                <a
+                  href="https://github.com/michdopdx/CodingExamples"
+                  class="card-link"
+                  >Vist My Git Repo</a
+                >
               </div>
             </div>
           </div>
@@ -148,12 +172,13 @@
               </div>
 
               <div class="mt-4">
-                <label for="Email" class="fs-5">Leave a comment here:</label>
+                <label for="messageArea" class="fs-5"
+                  >Leave a comment here:</label
+                >
                 <textarea
                   class="form-control spellcheck"
                   id="messageArea"
-                  rows="4"
-                  value="">
+                  rows="4">
                 </textarea>
                 <div>
                   <p>Word Count:<span id="count"> 0</span></p>
