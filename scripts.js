@@ -33,7 +33,7 @@ function sendMessageToUser() {
   alert(
     "Hello " +
       userInputName +
-      " I am happy to hear from you and I will reach out when I get the chance!"
+      ", I am happy to hear from you and I will reach out when I get the chance!"
   );
 }
 
@@ -49,13 +49,6 @@ messageForm.addEventListener("submit", (event) => {
 formMessage.addEventListener("input", checkWordCount);
 
 function checkWordCount() {
-  let resultStr = [];
-  let str = formMessage.value.replace(/[\t\n\r\.\?\!]/gm, " ").split(" ");
-  str.map((s) => {
-    let trimStr = s.trim();
-    if (trimStr.length > 0) {
-      resultStr.push(trimStr);
-    }
-  });
+  let resultStr = formMessage.value;
   document.getElementById("count").innerText = resultStr.length;
 }

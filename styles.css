@@ -1,10 +1,12 @@
 body {
-  background-color: lightblue;
+  background-image: url(FinalProjectImages/woodland-forest-trees-dirt-road-fallen-leaves-greenery-3840x2160-3518.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav {
   position: fixed;
-  background-color: aqua;
+  background-color: black;
   width: 100%;
   z-index: 9999;
 }
@@ -26,12 +28,12 @@ nav ul li a {
   padding: 1em;
   text-align: center;
   text-decoration: none;
-  color: var(--white);
+  color: white;
 }
 
 nav ul li a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 nav ul li a:active {
