@@ -43,6 +43,8 @@ messageForm.addEventListener("submit", (event) => {
     return;
   }
   sendMessageToUser();
+  document.getElementById("count").innerText = 0;
+
   messageForm.reset();
 });
 

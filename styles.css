@@ -39,7 +39,10 @@ nav ul li a:hover {
 nav ul li a:active {
   background-color: blue;
 }
-
+#gitlogo {
+  width: 50px;
+  height: 50px;
+}
 img {
   width: 300px;
   height: 300px;
