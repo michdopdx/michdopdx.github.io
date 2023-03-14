@@ -1,5 +1,5 @@
 // Used https://www.w3schools.com/js/js_validation.asp as inspiration to validate forms
-// Used https://www.geeksforgeeks.org/how-to-make-a-word-count-in-textarea-using-javascript/ for word counter in text area
+// Used https://www.geeksforgeeks.org/how-to-make-a-word-count-in-textarea-using-javascript/ for letter counter in text area
 
 let messageForm = document.getElementById("form");
 let formName = document.getElementById("Name");
