@@ -8,9 +8,11 @@ jobs Michael has worked at. Projects section shares two project git repositetori
 
 ## How To Use
 
-To use this code I recommend downloading and using Visual Studio code. Once Visual Studio code has been downloaded navigate to the the extension tab and download Live Server extension. Once Live server has been downloaded open main.html and run live server by pressing "live server" at the bottom right side of the screen.
+To use this code I recommend downloading and using Visual Studio code. Once Visual Studio code has been downloaded navigate to the extension tab and download Live Server extension. Once Live server has been downloaded open index.html and run live server by pressing "live server" at the bottom right side of the screen.
 
 ## Deployment
+
+Deployed at https://michdopdx.github.io/
 
 ## Resources Used
 
