@@ -2,6 +2,7 @@ body {
   background-image: url(FinalProjectImages/woodland-forest-trees-dirt-road-fallen-leaves-greenery-3840x2160-3518.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "Shadows Into Light", cursive;
 }
 
 nav {
