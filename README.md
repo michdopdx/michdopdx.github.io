@@ -20,3 +20,5 @@ To use this code I recommend downloading and using Visual Studio code. Once Visu
 4. https://www.youtube.com/watch?v=BoSQX9_bKSA
 5. https://www.youtube.com/watch?v=eVGEea7adDM
 6. https://www.w3schools.com/howto/howto_css_cards.asp
+7. https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/elements
+8. https://eloquentjavascript.net/2nd_edition/18_forms.html#p_G8aitsjxoL

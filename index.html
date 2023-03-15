@@ -60,10 +60,11 @@
             <div class="d-md-flex">
               <div>
                 <img
+                  class="w-md-100"
                   src="FinalProjectImages/cognexlogo.png"
                   alt="First Mecop InternShip" />
               </div>
-              <div class="ps-3">
+              <div class="ps-md-3">
                 <h2>First Mecop Internship</h2>
                 <p class="text-right">
                   For my first internship with Mecop, I interned at Cognex. At
@@ -80,7 +81,10 @@
               </div>
             </div>
             <div class="d-md-flex mt-4">
-              <div class="pe-3">
+              <div>
+                <img src="FinalProjectImages/oit.png" alt="PSU OIT" />
+              </div>
+              <div class="ps-md-3">
                 <h2>PSU OIT</h2>
                 <p class="text-right">
                   During my first and second years at PSU, I worked as an OIT
@@ -97,23 +101,19 @@
                   was through phone calls.
                 </p>
               </div>
-              <div>
-                <img src="FinalProjectImages/oit.png" alt="PSU OIT" />
-              </div>
             </div>
           </div>
         </section>
 
         <section id="Projects">
           <h1 class="text-center bg-dark text-light p-0 m-0">Projects</h1>
-          <div class="d-flex p-4">
-            <div class="card p-3 me-2">
+          <div class="d-flex flex-column p-4">
+            <div class="card d-flex p-3">
               <img
-                class="w-100"
                 src="FinalProjectImages/airlineproject.jpg"
                 alt="used picture from: https://www.pexels.com/photo/jet-cloud-landing-aircraft-46148/" />
               <div class="card-body">
-                <h3 class="card-title">Airline Application Java</h3>
+                <h2 class="card-title text-center">Airline Application Java</h2>
                 <p class="text-right">
                   For this project, I created an airline application that allows
                   users to store airlines and flights on the web. The airlines
@@ -126,13 +126,12 @@
                 >
               </div>
             </div>
-            <div class="card p-3">
+            <div class="card d-flex p-3">
               <img
-                class="image-fluid w-100"
                 src="FinalProjectImages/aiBrain.jpeg"
                 alt="Used picture from: https://pixabay.com/illustrations/artificial-intelligence-brain-think-3382507/" />
               <div class="card-body">
-                <h3 class="card-title">Sorting Algorithm</h3>
+                <h2 class="card-title text-center">Sorting Algorithm</h2>
                 <p class="text-right">
                   This repository is an example of an exercise that I had to
                   create in my Algortimes class. As a project for this class, we
@@ -153,21 +152,29 @@
           <h1 class="text-center bg-dark text-light p-0 m-0">
             Want to reach out or have any questions?
           </h1>
-          <div class="bg-dark border rounded w-50 mx-auto my-7 mt-4">
+          <div id="formDiv" class="bg-dark border rounded mx-auto my-7 mt-4">
             <form id="form" class="bg-light border rounded mx-auto p-2">
               <h2 class="text-center">Contact Me Here!</h2>
 
               <div class="sm-3 row mt-3">
                 <label for="Name" class="col-sm-3 fs-5">Name:</label>
                 <div class="col-sm-9">
-                  <input type="text" class="form-control" id="Name" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Name"
+                    name="name" />
                 </div>
               </div>
 
               <div class="sm-3 row mt-3">
                 <label for="Email" class="col-sm-3 fs-5">Email:</label>
                 <div class="col-sm-9">
-                  <input type="email" class="form-control" id="Email" />
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="Email"
+                    name="email" />
                 </div>
               </div>
 
@@ -177,9 +184,9 @@
                 >
                 <textarea
                   class="form-control spellcheck"
+                  name="userMessage"
                   id="messageArea"
-                  rows="4">
-                </textarea>
+                  rows="4"></textarea>
                 <div>
                   <p>Character Count:<span id="count"> 0</span></p>
                 </div>
