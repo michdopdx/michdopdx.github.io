@@ -16,6 +16,7 @@ nav ul {
   list-style-type: none;
   margin: 0%;
   padding: 0%;
+  float: right;
 }
 
 nav ul li {
@@ -51,7 +52,7 @@ img {
   margin: auto;
 }
 .card {
-  width: 55%;
+  width: 65%;
   margin: auto;
 }
 .card img {
