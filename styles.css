@@ -5,31 +5,40 @@ body {
   font-family: "Shadows Into Light", cursive;
 }
 
+p {
+  font-size: larger;
+  font-family: "Oxygen", sans-serif;
+}
+
+h2 {
+  border-bottom: 4px solid;
+}
+
 nav {
-  position: fixed;
   background-color: black;
+  position: fixed;
+  display: flex;
   width: 100%;
   z-index: 9999;
+  justify-content: center;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0%;
-  padding: 0%;
-  float: right;
+  list-style: none;
+  margin: 16px;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 0 -4px;
+  text-align: center;
   width: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 nav ul li a {
-  display: block;
-  padding: 1em;
-  text-align: center;
   text-decoration: none;
+  font-size: x-large;
   color: white;
 }
 
